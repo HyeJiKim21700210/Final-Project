@@ -1,0 +1,81 @@
+﻿name,english,solitary,couple,in groups,fasciculate,fairy ring,cap,head_low,head_high,stipe_low,stipe_high,color,shape,season,location,Toxic,similar
+흰주름버섯,Agaricus arvensis,1,0,1,0,0,1,8,20,5,20,white/ivory,round mountain~flat,summer~fall,forest/bamboo grove,X,X
+양송이,Agaricus bisporus,0,0,1,0,0,1,5,12,4,8,taupe/white,sphere~flat,summer,grass,X,X
+신령버섯,Agaricus blazei,1,1,0,0,0,1,6,11,6,13,taupe/brown,hemisphere~round mountain~flat,summer~fall,forest/grass,X,X
+주름버섯,Agaricus campestris,0,0,1,0,1,1,5,10,5,10,white/poppy red,round mountain~flat,summer~fall,mixed forest/grass/farm,X,X
+볏짚버섯,agrocybe praecox,0,0,1,1,0,1,4,8,5,10,ivory,round mountain~flat,summer~fall,wasteland/bare ground/grass,X,X
+들주발버섯,Aleuria aurantia,0,0,1,0,0,1,2,5,3,5,orange,bell~ear,summer~fall,forest/bare ground,X,X
+달걀버섯,Amanita hemibapha,0,0,1,0,0,1,5,18,10,17,orange,round mountain~flat,summer~fall,broadleaf tree/sapin,X,X
+광대버섯,Amanita muscaria,1,0,0,0,0,1,6,12,8,15,red/orange,round mountain~flat,spring~summer~fall~winter,pteridophyta,O,X
+마귀광대버섯,Amanita pantherina,1,0,1,0,0,1,4,25,5,35,taupe/olive,round mountain~flat,summer~fall,needleleaf tree/zelkova,O,붉은점박이광대버섯(amanita rubescens)
+우산광대버섯,Amanita vaginata,1,0,0,0,0,1,5,7,9,12,gray/taupe,round mountain~flat,summer~fall,needleleaf tree/broadleaf tree,O,X
+뽕나무버섯,Armillariella mellea,0,0,1,1,0,1,4,15,4,15,yellowish brown/brown,hemisphere~flat,summer~fall,broadleaf tree/needleleaf tree,X,미치광이버섯(gymnopilus liquiritiae)
+먼지버섯,Astraeus hygrometricus,0,0,1,0,0,1,2,3,3,5,blackish brown,sphere~star,summer~fall,forest/cliff,X,X
+목이,Auricularia auricula,0,0,1,0,0,1,3,12,3,5,reddish brown/indigo black,bell~ear,summer~fall,broadleaf tree,X,털목이(auricularia polytricba)
+아교뿔버섯,Calocera viscosa,1,0,1,0,0,0,0,0,3,5,orange/yellow,stick,summer~fall,needleleaf tree,O,X
+꾀꼬리버섯,Cantharellus cibarius,0,0,1,0,0,1,3,8,3,8,yellow,concave,summer~fall,broadleaf tree/needleleaf tree,O,애기꾀꼬리버섯(cantharellus minor)
+자주국수버섯,Clavaria purpurea,0,0,1,0,0,0,0,0,3,13,purple/grayish purple,stick,fall,pine tree,X,"국수버섯(clavaria vermicularis), 자주싸리국수버섯(clavaria zollingerii)"
+깔때기버섯,Clitocybe gibba,0,0,1,1,0,1,2,10,2,5,orange/beige/reddish brown,round mountain~flat,summer~fall,fallen leaves/grass/between stones,O,비단깔때기버섯(Clitocybe candicans)
+애기버섯,Collybia dryophila,0,0,1,0,0,1,1,4,2,6,brown/ivory,round mountain~flat,spring~summer~fall,mold/fallen leaves,O,X
+점박이애기버섯,Collybia maculata,1,0,1,0,0,1,7,12,7,12,white/ivory,round mountain~flat,summer~fall,needleleaf tree/broadleaf tree,O,X
+가랑잎애기버섯,Collybia peronata,0,0,1,0,0,1,1,4,2,5,brown,round mountain~flat,summer~fall,forest/,O,X
+먹물버섯,Coprinus comatus,0,0,1,0,0,1,3,5,5,10,isabella/yellowish brown,cone~egg,spring~summer~fall,grass/farm/garden/wayside,O,두엄먹물버섯(Coprinus atramentarius)
+갈색먹물버섯,Coprinus micaceus,0,0,1,1,0,1,1,4,3,8,yellowish brown,egg~bell~cone,summer~fall,broadleaf tree,O,노랑먹물버섯(coprinus radians)
+동충하초,Cordyceps militaris,1,0,1,0,0,0,0,0,1,5,orange,stick,spring~summer~fall,insect,X,X
+낭피버섯,Cystoderma amianthinum,0,0,1,0,0,1,2,5,3,6,yellowish brown,cone~flat,summer~fall,needleleaf tree/mixed forest/broadleaf tree,X,X
+망태버섯,Dictyophora indusiata,1,0,0,0,0,1,3,5,15,18,white,bell,summer~fall,bamboo grove/copse,X,노란망태버섯(Dictyophora indusiata f. lutea)
+노란망태버섯,Dictyophora indusiata f,1,0,1,0,0,1,3,5,15,18,yellow/red,bell,summer~fall,mixed forest,X,망태버섯(Dictyophora indusiata)
+노란꼭지외대버섯,Entoloma murraii,0,0,1,0,0,1,1,6,3,10,orange,bell~cone,summer~fall,forest,O,흰꼭지외대버섯(Entoloma murraii f. album)
+흰꼭지외대버섯,Entoloma murraii f. album,1,0,1,0,0,1,6,6,3,10,ivory,bell,summer~fall,forest,O,노란꼭지외대버섯(Entoloma murraii)
+팽나무벗섯,Flammulina velutipes,0,0,0,1,0,1,2,8,2,9,orange/yellowish brown,round mountain~flat,winter~spring,broadleaf tree,X,미치광이버섯(Gymnopilus liquiritiae)
+말굽잔나비버섯,Fomitopsis officinalis,1,0,0,0,0,1,0,15,0,15,white/yellowish brown,bell,spring~summer~fall~winter,needleleaf tree,O,잔나비버섯(Fomitopsis pinicola)
+불로초,Ganoderma lucidum,1,0,1,0,0,1,5,15,3,15,white/reddish brown/yellow,circle,spring~summer~fall~winter,broadleaf tree,X,X
+나팔버섯,Gomphus floccosus,1,0,1,0,1,1,4,12,10,20,yellowish brown,cone,summer~fall,needleleaf tree,O,후지나팔버섯(gompbus fujisanensis)
+후지나팔버섯,Gomphus fujisanensis,0,0,1,1,1,1,5,10,0,10,yellowish brown,cone,summer~fall,mixed forest,O,X
+혀버섯,Guepinia spathularia,0,0,1,0,0,0,0,0,1,2,orange,stick,spring~summer~fall~winter,needleleaf tree,X,X
+갈황색미치광이버섯,Gymnnopilus spectabilis,0,0,0,1,0,1,5,15,5,15,orange/yellowish brown,round mountain~flat,summer~fall,broadleaf tree/needleleaf tree,O,X
+마귀곰보버섯,Gyromitra esculenta,1,0,1,0,0,0,0,0,5,12,yellowish brown/reddish brown,irregular sphere,spring~summer,needleleaf tree,O,안장마귀곰보버섯(Gyromitria infula)
+안장마귀곰보버섯,Gyromitra infula,1,0,1,0,0,0,0,0,4,8,reddish brown/purplish brown,irregular sphere,summer,old tree,O,마귀곰보버섯(Gyromitra esculenta)
+긴대안장버섯,Helvella elastica,0,0,1,0,0,1,2,5,5,13,gray/ivory,irregular sphere,summer~fall,forest/pasture,O,X
+노루궁뎅이,Hericium erinaceum,0,0,0,1,0,1,5,20,1,5,white/orange,stick,summer~fall,broadleaf tree,X,X
+붉은산벚꽃버섯,Hygrocybe conica,1,0,1,0,0,1,1,4,5,10,red/orange,cone~round mountain~flat,summer~fall,grass/wayside/forest/bamboo grove,O,X
+곱슬머리땀버섯,Inocybe cincinnata,0,0,1,0,0,1,1,3,3,5,purple/reddish brown,cone~round mountain~flat,summer~fall,pine tree,O,애기흰땀버섯(Inocybe geopbylla)
+애기흰땀버섯,Inocybe geophylla,0,0,1,0,0,1,1,2,2,5,white/purple,cone~flat,summer~fall,needleleaf tree/broadleaf tree,O,"보라땀버섯(Inocybe geophylla var. lilacina), 곱슬머리땀버섯(Inocybe cincinnata)"
+보라땀버섯,Inocybe geophylla var. lilacina,0,0,1,0,0,1,1,2,2,4,orange/yellowish brown,cone~round mountain~flat,fall,forest,O,애기흰땀버섯(Inocybe geopbylla)
+자주졸각버섯,Laccaria amethystea,0,0,1,0,0,1,1,3,3,7,purple/taupe,round mountain~flat,summer~fall,forest/between stones,X,X
+피젖버섯,Lactarius akahatsu,0,0,1,0,0,1,5,10,3,5,orange/poppy red,round mountain~flat~cone,fall,pine tree,X,X
+푸른유액젖버섯,Lactarius glaucecens,0,0,1,0,1,1,5,15,2,6,white,round mountain~cone,summer~fall,broadleaf tree,O,젖버섯(Lactarius piperatus)
+젖버섯,Lactarius piperatus,0,0,1,0,0,1,4,18,3,9,white/orange,round mountain~cone,summer~fall,broadleaf tree/needleleaf tree,X,푸른유액젖버섯(Lactarius glaucescens)
+배젖버섯,Lactarius volemus,1,0,1,0,0,1,5,12,6,10,yellowish brown/orange,round mountain~flat,summer~fall,broadleaf tree,X,X
+덕다리버섯,Laetiporus sulphureus,0,0,1,0,0,1,5,20,0,2,orange/ivory,semicircle,spring~summer~fall~winter,broadleaf tree/needleleaf tree,O,붉은덕다리버섯(Laetiporus sulphureus var. miniatus)
+붉은덕다리버섯,Laetiporus sulphureus var. miniatus,0,0,1,0,0,1,5,20,30,40,orange/white,semicircle,spring~summer~fall~winter,needleleaf tree,X,덕다리버섯(Laetiporus sulphureus)
+화경버섯,Lamptreromyces japonicus,0,0,1,0,0,1,10,25,1,3,orange/yellowish brown,semicircle,summer~fall,broadleaf tree,O,"느타리버섯(Pleurotus ostreatus), 참부체버섯(Panellus serotinus), 표고버섯(Lentinus edodes)"
+껄껄이그물버섯,Leccinum extremiorientales,1,1,0,0,0,1,7,20,5,13,orange/yellowish brown,hemisphere~round mountain~flat,summer~fall,broadleaf tree/pine tree,X,X
+등색껄껄이그물버섯,leccinum versipelle,1,0,1,0,0,1,4,21,5,20,orange/yellowish brown,hemisphere~round mountain,summer~fall,forest,X,X
+표고버섯,Lentinula edodes,1,0,1,0,0,1,4,10,3,8,blackish brown/brown,round mountain~flat,spring~summer~fall,broadleaf tree/dead tree,X,화경버섯(Lamptreromyces japonicus)
+잣버섯,Lentinus lepideus,1,0,1,0,0,1,0,2,2,8,white/orange/reddish brown,sphere~round mountain~flat,summer~fall,pine tree,X,X
+갈색고리갓버섯,Lepiota cristata,0,0,1,0,0,1,2,4,3,5,brown/reddish brown,bell~round mountain~flat,summer~fall,forest/garden/grass/dump,O,밤색갓버섯(Lepiota castanea)
+민자주방망이버섯,Lepista nuda,0,0,1,0,1,1,6,10,4,8,purple/orange/brown,round mountain~flat,fall,copse/bamboo grove/bran,O,X
+말불버섯,Lycoperdon perlatum,0,0,1,0,0,1,1,4,4,6,white/taupe,sphere,summer~fall,forest/grass,X,좀말불버섯(Lycoperdon pyriforme Scbaeff)
+좀말불버섯,Lycoperdon pyriforme Scbaeff,0,0,1,0,0,1,1,4,2,4,white/taupe,egg~sphere,summer~fall,forest,X,말불버섯(Lycoperdon perlatum)
+만가닥버섯,Lyopbyllum cinerascens,0,0,0,1,0,1,0,2,1,3,taupe/gray,round mountain~flat,summer~fall,oak/pine tree/mixed forest,X,X
+흰주름만가닥버섯,Lyopbyllum connatum,0,0,1,1,0,1,4,8,3,10,white/beige,round mountain~bell~flat,summer~fall,forest,O,X
+곰보버섯,Morchella esculenta,1,0,1,0,1,1,4,5,2,5,yellowish brown,egg,spring,forest/yard,X,X
+노란다발,Naematoloma fasciculare,0,0,0,1,0,1,1,5,2,12,yellow/yellowish brown,round mountain~flat,spring~summer~fall,old tree/bamboo grove,O,개암버섯아재비(Naematoloma sublateritium)
+부채버섯,Panellus stypticus,0,0,1,1,0,1,1,2,0,2,yellowish brown,hemisphere,summer~fall,broadleaf tree,X,화경버섯(Lamptreromyces japonicus)
+느타리,Pleurotus ostreatus,0,0,0,1,0,1,5,15,1,3,gray/taupe,semicircle,fall~winter~spring,broadleaf tree/needleleaf tree,X,X
+큰느타리,Pleurotus eryngii,1,0,1,0,0,1,5,10,2,4,white/ivory,round mountain~flat,summer~fall,forest,X,X
+송이,Tricboloma matsutake,0,0,1,0,0,1,8,25,10,25,yellowish brown/blackish brown/brown,round mountain~flat,fall,pine tree,X,X
+난버섯,Pluteus articapillus,0,0,1,0,0,1,5,9,6,12,taupe,bell~cone~flat,spring~summer~fall,broadleaf tree,X,X
+붉은사슴뿔버섯,Podostroma cornu,0,0,1,0,0,0,0,0,5,10,red/orange/purple,stick,summer~fall,broadleaf tree,O,붉은창싸리버섯(Cavulinopsis miyabeana)
+족제비눈물버섯,Psathyrella candolliana,0,0,1,0,0,1,3,7,4,8,orange/yellowish brown,bell~flat,summer~fall,broadleaf tree,O,"두엄먹물버섯(Coprinus atramentarius), 다람쥐눈물버섯(Psatbyrella piluliformis)"
+황금싸리버섯,Ramaria aurea,0,0,1,0,0,0,0,0,5,12,yellow/yellow purple,stick,fall,forest,O,붉은싸리버섯(Ramaria formosa)
+붉은싸리버섯,Ramaria formosa,0,0,1,0,0,0,0,0,7,20,pink/orange,stick,fall,broadleaf tree,O,황금싸리버섯(Ramaria aurea)
+애기무당버섯,Russula densifolia,0,0,1,0,0,1,6,10,3,5,white/taupe,round mountain~cone,summer~fall,forest,O,"흙갈색무당버섯(Russula adusta), 검은무당버섯(Russula albonigra)"
+능이,Sarcodon aspratus,0,0,1,0,0,1,10,20,3,6,pink/brown/blackish brown,cone,summer~fall,broadleaf tree,O,노루털버섯(Sarcodon imbricatus)
+귀신그물버섯,Strobilomyces strobilaceus,0,0,1,0,0,1,3,12,5,15,brown/white,hemisphere~round mountain,summer~fall,forest,X,X
+흰오뚜기광대버섯,Amanita castanopsidis,0,0,1,0,0,1,3,8,7,8,white,round mountain~flat,summer~fall,oak,O,X
+방망이싸리버섯,Clavariadelpbus pistilaris,1,0,1,0,0,0,0,0,10,30,orange/yellowish brown,stick,fall,broadleaf tree,X,X
+혓바늘목이,Pseudobydnum gelatinosum,1,0,1,0,0,1,0,4,0,1,brown/white,semicircle,summer~fall,needleleaf tree,X,X
+말징버섯,Calvatia craniiformis,1,0,1,0,0,1,5,8,6,10,white/brown,sphere,fall,fallen leaves/bare ground,X,X
+꽃송이버섯,Sparassis crispa,0,0,0,1,0,1,10,30,0,10,white,semicircle,summer~fall,forest,X,X
