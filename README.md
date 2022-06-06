@@ -7,7 +7,7 @@
  
 ***Why we need this project***
 - Suppose 100 people read a book to find mushrooms. I think I can save 99 people's time if I read and organize the book by myself. The file is also open source, which allows other people to add or change more information.
-- The mushrooms that we see in the illustrated book could only be checked by putting information or knowing their names. So I made it easier to see what kind of mushrooms there were through the characteristics of the mushrooms that the user wanted to know, so that they could be more easily approached.
+- The mushrooms that we see in the illustrated book(한국의 식용·독버섯도감/조덕현) could only be checked by putting information or knowing their names. So I made it easier to see what kind of mushrooms there were through the characteristics of the mushrooms that the user wanted to know, so that they could be more easily approached.
 - Although I'm also an amateur, so people can't trust me very much, but I think it's an advantage that you can easily find mushrooms when you're curious about them.
  
 ***How to get start.***
