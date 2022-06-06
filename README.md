@@ -20,8 +20,8 @@
 - Only 80 species native to Korea were compiled
 - Rarely, but under the same features, the result of the mushroom sorted first is derived.
 
-***If you need more informations or sugest somethings. ***
- *** Please send me an e-mail: 21700210@handong.ac.kr***
+***If you need more informations or sugest somethings. 
+ Please send me an e-mail: 21700210@handong.ac.kr***
 
 
 ***Youtube Link: ***
