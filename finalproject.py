@@ -80,10 +80,11 @@ def print_feature(input):
     print("Similar thing:",similar)
     draw_line_bottom()
   except:
+    draw_line_top()
     print("\n We could not find that mushroom.\n\n")
+    draw_line_bottom()
 
 def find_nameK(df, name):
-
   input = df.loc[df['name'].str.contains(name, na=False)]
   print_feature(input)
 
@@ -91,8 +92,8 @@ def find_nameE(df,name):
   input = df[df['english'].isin([name])]
   print_feature(input)
 
-def explain():
-  draw_line_top()
+
+def explain_cluster():
   print("Cluster status")
   print("->It is a word that refers to the occurrence ")
   print("status of mushrooms and is classified as")
@@ -100,21 +101,41 @@ def explain():
   print(" -Couple: Occurred twin.")
   print(" -In groups: Several strands grow together from one root")
   print(" -Fasciculate: Several mushrooms grow together into individuals.\n")
+  
+def explain_fairy():
   print("Fairy fing")
   print("->The shape of mushrooms growing in a row ")
   print("under a tree in a meadow or forest.\n")
+  
+def explain_cap():
   print("Cap")
   print("->It refers to the head of mushrooms, ")
   print("some species do not have it.\n")
+  
+def explain_stipe():
   print("Stipe")
   print("->It means the rest of the stem except for the cap of the mushroom\n")
+  
+def explain_place():
+  print("Place")
+  print("it refers to the place where mushrooms have occurred.")
+  
+def explain_color():
   print("Color") 
   print("->if mushroom have a cap, choose the color of the cap, ")
   print("or choose the color of the stem.\n")
-  print("Place")
-  print("it refers to the place where mushrooms have occurred.")
-  draw_line_bottom()
 
+def explain():
+  draw_line_top()
+  explain_cluster()
+  explain_fairy()
+  explain_cap()
+  explain_stipe()
+  explain_color()
+  explain_place()
+  draw_line_bottom()
+  
+  
 def finding_str(cell, index, name):
   name = name.lower()
   cell = cell.loc[cell[index].str.contains(name, na=False)]
@@ -131,7 +152,7 @@ def find_feature(df):
   while(1):
     draw_line_top()
     print("Cluster status")
-    print("1.solitery 2.Couple 3.Ingroups 4.Fasciculate 5.I do not know.")
+    print("1.solitery 2.Couple 3.Ingroups 4.Fasciculate 0.I do not know. \nExplain Cluster status: e")
     answer = input()
     if(answer == '1'):
       cell = df[df['solitary'].isin([1])]
@@ -145,15 +166,17 @@ def find_feature(df):
     elif(answer == '4'):
       cell = df[df['fasciculate'].isin([1])]
       break
-    elif(answer =='5'):
+    elif(answer =='0'):
       cell = df
+    elif(answer =='e'):
+      explain_cluster()
     else:
-      print("enter the number (1,2,3,4,5)")
+      print("enter the number (1,2,3,4,0)")
 
 #Fairy ring
   while(1):
     draw_line_top()
-    print("Fairy ring: 1 or 0")
+    print("Fairy ring: 1 or 0, \nExplain Fairy ring: e")
     answer = input()
     if(answer =='1'):
       cell = cell[cell['fairy ring'].isin([1])]
@@ -161,13 +184,15 @@ def find_feature(df):
     elif(answer =='0'):
       cell = cell[cell['fairy ring'].isin([0])]
       break
+    elif(answer == 'e'):
+      explain_fairy()
     else:
       print("enter the number(1,0)")
 
 #Cap
   while(1):
     draw_line_top()
-    print("Cap: 1 or 0")
+    print("Cap: 1 or 0\nExplain Cap: e")
     answer = input()
     if(answer == '1'):
       print("Shape: ")
@@ -184,22 +209,26 @@ def find_feature(df):
     elif(answer== '0'):
       cell = cell[cell['cap'].isin([0])]
       break
+         
+    elif(answer == 'e'):
+      explain_cap()
     else:
       print("enter the number(1,0)")
 
-  print_feature(cell)
-
   
   #stipe_length
-  draw_line_top()
-  print("The length of stipe:")
-  print("(If mushroom cannot have cap, than enter the length of mushroom)")
-  answer = input()
-  cell =finding_length(cell, 'stipe_low', 'stipe_high',answer)
+  while(1):
+    draw_line_top()
+    print("The length of stipe:")
+    print("(If mushroom cannot have cap, than enter the length of mushroom)")
+    print("Explain stipe: e")
+    answer = input()
+    if(answer == 'e'):
+      explain_stipe()
+    else:
+      cell =finding_length(cell, 'stipe_low', 'stipe_high',answer)
+      break
 
-  print_feature(cell)
-
-  
   #Color
   draw_line_top()
   print("Color: ")
@@ -207,25 +236,43 @@ def find_feature(df):
   print("yellowish brown, blackish brown, reddish brown, indigo black, ")
   print("purple, grayish purple, beige, isabella, purplish brown, ")
   print("blackish brown, pink, yellow purple, gray,yellow.")
+  print("I do not know: 0")
   answer = input()
-  cell = finding_str(cell,'color',answer)
+  if(answer == '0'):
+    cell = cell
+  else:
+    cell = finding_str(cell,'color',answer)
   
   #Season
   draw_line_top()
-  print("Seasons: ")
+  print("Seasons: spring, summer, fall, winter")
+  print("I do not know: 0")
   answer = input()
-  cell = finding_str(cell,'season',answer)
+  if(answer == '0'):
+    cell = cell
+  else:
+    cell = finding_str(cell,'season',answer)
+    
 
   #Place
-  draw_line_top()
-  print("Place:")
-  print("forest, fallen leaves, bare ground, needleleaf, broadleaf,")
-  print("pine, bamboo, old tree, yard, oak, mixed forest, grassb, bran,  ")
-  print("dump, garden, dead tree, beteen stones, wayside, pasture, ")
-  print("copse, insect, mold, cliff,zelkova, sapin, pteridophyta, ")
-  print("wasteland, farm. ")
-  answer = input()
-  cell = finding_str(cell,'location',answer)
+  while(1):
+    draw_line_top()
+    print("Place:")
+    print("forest, fallen leaves, bare ground, needleleaf, broadleaf,")
+    print("pine, bamboo, old tree, yard, oak, mixed forest, grassb, bran,  ")
+    print("dump, garden, dead tree, beteen stones, wayside, pasture, ")
+    print("copse, insect, mold, cliff,zelkova, sapin, pteridophyta, ")
+    print("wasteland, farm. ")
+    print("I do not know: 0 \nExplain Place: 1")
+    answer = input()
+    if(answer == '0'):
+      cell = cell
+      break
+    elif(answer == '1'):
+      explain_place()
+    else:
+      ell = finding_str(cell,'location',answer)
+      break
 
   print_feature(cell)
 
@@ -265,5 +312,5 @@ while(1):
     print("Bye")
     break
   else:
-    print("Please enter the number (1,2,3,4)")
+    print("Please enter the number (1,2,3,4,0)")
 
