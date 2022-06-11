@@ -145,7 +145,6 @@ def finding_length(cell, index,index2,answer):
   answer = int(answer)
   cell = cell[cell[index]<=answer]
   cell = cell[cell[index2]>=answer]
-  print(cell)
   return cell
 
 def find_feature(df):
